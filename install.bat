@@ -1,3 +1,13 @@
 @echo off
-cmd /c "cd /d venv\Scripts & activate & cd /d ..\.. & pip install --upgrade pip & pip install -r requirements.txt"
+cmd /c "cd /d venv\Scripts & activate & pip install -r ..\..\requirements.txt"
+
+mkdir IMAGES
+
+attrib src +h
+attrib venv +h
+attrib .gitignore +h
+attrib requirements.txt +h
+attrib LICENSE +h
+attrib README.md +h
+
 del install.bat
