@@ -8,6 +8,5 @@ attrib venv +h
 attrib .gitignore +h
 attrib requirements.txt +h
 attrib LICENSE +h
-attrib README.md +h
 
 del install.bat
